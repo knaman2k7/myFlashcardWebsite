@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <link rel="stylesheet" href="creatingFlashCards.css">
+
+</head>
+<body>
+    
+    <p style="text-align: center; margin-top: 50px; margin-bottom: 25px; font-size: 40px;">Question</p>
+
+    <!--Question box-->
+    <div class="inputsBox">
+        <form>
+            <textarea rows="8" cols="65" class="inputBoxs" id="QuestionBox"></textarea>
+        </form>
+    </div>
+
+<br><br>
+
+    <p style="text-align: center; margin-top: 50px; margin-bottom: 25px; font-size: 40px;">Answer</p>
+
+    <!--Answer Box box-->
+    <div>
+        <form class="inputsBox">
+            <textarea rows="8" cols="65" class="inputBoxs" id="AnswerBox"></textarea>
+        </form>
+    </div>
+
+    <div class="buttonsClass">
+
+        <button style="background-color: rgba(00, 00, 00, 0); border: none; margin-left: 0px;" id="addButton">
+            <img src="myAdd2.png" width="70px">
+        </button>
+
+        <button class="CreateButton" id="CreateButton">
+            Create
+        </button>
+
+        <input type="text" id="startNum" class="numberStarter">
+
+    </div>
+
+
+    <p style="text-align: center; margin-top: 50px; margin-bottom: 25px; font-size: 40px;">Output</p>
+
+    <!--Output Box box-->
+    <div>
+        <form class="outputB">
+            <textarea  rows="8" cols="65" class="inputBoxs" id="OutputBox" style="text-align: left;">...</textarea>
+        </form>
+    </div>
+
+
+<script src="CreateFlashCards.js"></script>
+
+</body>
+</html>

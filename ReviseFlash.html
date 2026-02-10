@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<link rel="stylesheet" href="ReviseCards.css">
+</head>
+<body>
+    
+    <div class="numberSystem">
+
+        <p class="topNumber" style="font-size: 30px;" id="num1">0</p>
+        <p class="topNumber" style="font-size: 60px;" id="num2">1</p>
+        <p class="topNumber" style="font-size: 30px;" id="num3">2</p>
+
+    </div>
+
+    <div class="paperButtonsCont">
+        <button class="paper1" id="p1"><b>paper 1</b></button>
+        <button class="paper2" id="p2">paper 2</button>
+    </div>
+
+    <div class="RandomOrderedButtons">
+        <button class="OrderButton" id="Orde"><b>Ordered</b></button>
+        <button class="RandomButton" id="Rand">Random</button>
+        <button class="WeakButton" id="Weaker">Weakest</button>
+    </div>
+
+    <div style="display: flex; align-items: center; justify-content: center; margin-bottom: 5px; margin-top: 5px;">
+        <button class="SectionButton" id="s1">S1</button>
+        <button class="SectionButton" id="s2">S2</button>
+        <button class="SectionButton" id="s3">S3</button>
+        <button class="SectionButton" id="s4">S4</button>
+        <button class="SectionButton" id="s5">S5</button>
+        <button class="SectionButton" id="s6">S6</button>
+        <button class="SectionButton" id="s7">S7</button>
+        <button class="SectionButton" id="s8">S8</button>
+        <button class="SectionButton" id="s9">S9</button>
+    </div>
+
+    <div class="container">
+
+        <div>
+            <!-- left Button -->
+            <button id="leftButton" style="background-color: rgba(00, 00, 00, 0); border: none;">
+        
+                <img src="myArrow.png" width="50px">
+        
+            </button>
+
+            <br>
+            <br>
+            <br>
+
+            <!-- right Button -->
+            <button id="rightButton" style="background-color: rgba(00, 00, 00, 0); border: none;">
+
+                <img src="myArrow2.png" width="50px">
+
+            </button>
+
+        </div>
+
+
+        <!-- Actual flashcard -->
+        <div style="width: 1000px; height: 800;">
+        <div class="flashcard" id="FlashCardMain">
+
+            <p id="mainText" style="margin-top: 60px; margin-bottom: 30px;">Press Flip</p>
+            <div id="forBreak"><hr></div>
+            <p id="answerText"></p>
+
+
+        </div>
+        </div>
+
+        <!--general box to write in-->
+        <div class="inputsBox" id="generalWriteBox">
+            <form>
+                <textarea rows="14" cols="30" class="inputBoxs" id="outBox" value=".."></textarea>
+            </form>
+        </div>
+
+
+    </div>
+
+    <br><br>
+
+    <!-- flip button -->
+    <div class="centered-div">
+
+        <button class="FlipButton" id="flipButton">Flip</button>
+        <button class="CorrectWrongButton" id="QuestionCorrect"><img src="myTick.png" height="30px"></button>
+        <button class="CorrectWrongButton" id="QuestionWrong"><img src="myCross.png" height="30px"></button>
+        <button class="DataButtons" id="DataCreationButton">Process Data</button>
+
+    </div>
+
+
+    <script src=".Reviser.js"></script>
+
+</body>
+</html>
