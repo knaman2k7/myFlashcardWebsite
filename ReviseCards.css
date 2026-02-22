@@ -16,10 +16,6 @@ body {
     padding: 10px;
 }
 
-h1 {
-    color: white;
-}
-
 .flashcard {
     margin: auto;
     width: 800px;
@@ -50,7 +46,7 @@ h1 {
 }
 
 p {
-    color: white;
+    color: black;
     font-size: 25px;
     font-family: olyford;
 }
